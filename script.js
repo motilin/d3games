@@ -38,6 +38,7 @@ function makeList() {
 
     canvas = d3.select('body')
         .append('svg')
+        .attr('class', 'canvas')
         .attr('width', width)
         .attr('height', height)
 
